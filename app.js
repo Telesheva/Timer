@@ -20,4 +20,26 @@
             }, 980);
         }
     });
+<<<<<<< Updated upstream
 })();
+=======
+    let inpMin = document.getElementById('inputMinute2');
+    let inpSec = document.getElementById('inputSeconds2');
+    let btn = document.querySelector('#clockBtn2');
+    let btnStop = document.querySelector('#clockBtn3');
+    btn.addEventListener('click', () => {
+        let milisec = 0;
+        let stopwatch = setInterval(() => {
+            milisec++;
+            let minutes = Math.floor((milisec % (100 * 60 * 60)) / (100 * 60));
+            let seconds = Math.floor((milisec % (100 * 60)) / 100);
+            inpMin.value = minutes;
+            inpSec.value = seconds;
+            console.log(minutes + ' : ' + seconds);
+            btnStop.addEventListener('click', () => {
+                clearInterval(stopwatch);
+            })
+        }, 10);
+    });
+})();
+>>>>>>> Stashed changes

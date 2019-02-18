@@ -1,4 +1,4 @@
-.clock {
+.clock1 {
     width: 210px;
     height: 210px;
     margin-left: 42%;
@@ -22,10 +22,49 @@
     height: 50px;
 }
 #clockBtn {
-    background-color: red;
+    background-color: green;
     color: white;
     width: 120px;
     height: 40px;
     margin-left: 45px;
+    border-radius: 10px 10px 30px 30px;
+}
+.clock2 {
+    width: 210px;
+    height: 210px;
+    margin-left: 42%;
+    margin-top: 40px;
+    background-color: grey;
+    border-radius: 50%;
+    border: aqua 20px solid;
+}
+#inputMinute2 {
+    text-align: center;
+    font-size: 22px;
+    margin: 45px 0 0 40px;
+    width: 50px;
+    height: 50px;
+}
+#inputSeconds2 {
+    text-align: center;
+    font-size: 22px;
+    margin: 45px 0 0 20px;
+    width: 50px;
+    height: 50px;
+}
+#clockBtn2 {
+    background-color: green;
+    color: white;
+    width: 80px;
+    height: 40px;
+    margin: 10px 0 0 65px;
+    border-radius: 10px 10px 30px 30px;
+}
+#clockBtn3 {
+    background-color: red;
+    color: white;
+    width: 80px;
+    height: 40px;
+    margin: 10px 0 0 65px;
     border-radius: 10px 10px 30px 30px;
 }

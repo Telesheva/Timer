@@ -1,10 +1,6 @@
 (() => {
-
-    //let curTime = `${milisec} : ${sec} : ${minute} : ${hours}`;
     let inputMin = document.getElementById('inputMinute');
     let inputSec = document.getElementById('inputSeconds');
-    //let min = parseInt(prompt('Write a minute'));
-    //let second = parseInt(prompt('Write a second'));
     let button = document.querySelector('#clockBtn');
     button.addEventListener('click', () => {
         if (inputSec.value !== '' && inputMin.value !== '') {
@@ -24,8 +20,4 @@
             }, 980);
         }
     });
-
-    /*setTimeout(function() {
-        clearInterval(timer);
-    }, 3000);*/
 })();

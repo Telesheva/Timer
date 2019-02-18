@@ -1,0 +1,31 @@
+.clock {
+    width: 210px;
+    height: 210px;
+    margin-left: 42%;
+    margin-top: 80px;
+    background-color: grey;
+    border-radius: 50%;
+    border: aqua 20px solid;
+}
+#inputMinute {
+    text-align: center;
+    font-size: 22px;
+    margin: 45px 0 0 40px;
+    width: 50px;
+    height: 50px;
+}
+#inputSeconds {
+    text-align: center;
+    font-size: 22px;
+    margin: 45px 0 35px 20px;
+    width: 50px;
+    height: 50px;
+}
+#clockBtn {
+    background-color: red;
+    color: white;
+    width: 120px;
+    height: 40px;
+    margin-left: 45px;
+    border-radius: 10px 10px 30px 30px;
+}
